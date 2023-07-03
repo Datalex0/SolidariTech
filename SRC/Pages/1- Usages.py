@@ -22,7 +22,7 @@ image2 = Image.open('SRC/Logo_Emmaüs_Connect_simple.png')
 
 
 # Import dataframes
-df = pd.read_csv("SRC/df_final.csv", sep = ",", low_memory=False)
+df = pd.read_csv("SRC/pages/df_final.csv", sep = ",", low_memory=False)
 #, encoding='latin1'
 df = df[
     df['ANNEE']==2022
