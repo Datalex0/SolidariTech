@@ -22,7 +22,7 @@ Nous y avons répondu en proposant différentes **visualisations** de la base de
 Nous avons ensuite généré un outil permettant à Emmaüs Connect de trouver ses propres personas type à former, ceci via 2 onglets : 
 
 * le premier en entrant un usage précis, cela retournant selon 6 critères (Âge, Genre, CSP, Plus haut diplôme, Type d'Agglomération habitée, Région) la catégorie de population réalisant le moins cet usage,
-* le second en modifiant des filtres correspondant à ces mêmes critères, cela ressortant les besoins en terme d'usage.
+* le second en modifiant des filtres correspondant à ces mêmes critères, cela ressortant les besoins en terme d'usages.
 
 Cet outil a été produit avec **Python** et **Streamlit**, la présentation a été réalisée via le logiciel **Canva** et les graphiques qu'elle intègre ont été réalisés avec les logiciels **Power BI** et **Tableau**.
 
