@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-import streamlit.components.v1 as components
 
 #Configuration des dimensions & affichage de la page
 st.set_page_config(page_title="Emmaüs Connect Project",
@@ -28,3 +27,5 @@ def add_bg_from_local(image_file):
     unsafe_allow_html=True
     )
 add_bg_from_local('SRC/Logo_Emmaüs_Connect.png')
+
+st.sidebar
