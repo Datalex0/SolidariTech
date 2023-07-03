@@ -28,4 +28,4 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('SRC/Logo_Emmaüs_Connect.png')
 
-st.sidebar
+st.sidebar.write("")
