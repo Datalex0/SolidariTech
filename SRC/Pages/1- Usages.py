@@ -16,13 +16,13 @@ st.set_page_config(page_title="Emmaüs Connect Project",
                    layout='wide')
 
 #Importation image accueil
-image = Image.open('C:/Users/murai/OneDrive/Bureau/DATA/Datathon2/Logo_Emmaüs_Connect.png')
-image2 = Image.open('C:/Users/murai/OneDrive/Bureau/DATA/Datathon2/Logo_Emmaüs_Connect_simple.png')
+image = Image.open('SRC/Logo_Emmaüs_Connect.png')
+image2 = Image.open('SRC/Logo_Emmaüs_Connect_simple.png')
 # st.image(image)
 
 
 # Import dataframes
-df = pd.read_csv("C:/Users/murai/OneDrive/Bureau/DATA/Datathon2/df_final.csv", sep = ",", low_memory=False)
+df = pd.read_csv("SRC/df_final.csv", sep = ",", low_memory=False)
 #, encoding='latin1'
 df = df[
     df['ANNEE']==2022
