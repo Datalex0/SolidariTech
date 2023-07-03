@@ -8,7 +8,7 @@ st.set_page_config(page_title="Emmaüs Connect Project",
                    layout='wide')
 
 #Importation image accueil
-image = Image.open('C:/Users/murai/OneDrive/Bureau/DATA/Datathon2/Logo_Emmaüs_Connect.png')
+image = Image.open('SRC/Logo_Emmaüs_Connect.png')
 
 # Initialisation du fond d'écran
 import base64
@@ -26,4 +26,4 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('C:/Users/murai/OneDrive/Bureau/DATA/Datathon2/Logo_Emmaüs_Connect.png')
+add_bg_from_local('SRC/Logo_Emmaüs_Connect.png')
