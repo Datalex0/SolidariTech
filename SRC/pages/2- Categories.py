@@ -20,7 +20,7 @@ image2 = Image.open('SRC/Logo_Emmaüs_Connect_simple.png')
 # st.sidebar.image(image2)
 
 # Import dataframes
-df = pd.read_csv("SRC/Pages/df_final_age.csv", sep = ",", low_memory=False)
+df = pd.read_csv("SRC/pages/df_final_age.csv", sep = ",", low_memory=False)
 #, encoding='latin1'
 
 
