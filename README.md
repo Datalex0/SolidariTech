@@ -1,4 +1,4 @@
-# :star: SolidariTech :star:
+# - :star: SolidariTech :star: -
 
 Hackathon réalisé en partenariat avec
 
